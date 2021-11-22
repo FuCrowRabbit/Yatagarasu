@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "yatagarasu",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FuCrowRabbit/Yatagarasu.git"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "bin": {
+    "yatagarasu": "bin/yatagarasu.js"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "browser-sync": "^2.27.7",
+    "chokidar": "^3.5.2",
+    "config": "^3.3.6",
+    "glob": "^7.2.0",
+    "make-dir": "^3.1.0",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.4",
+    "stylelint": "^14.1.0"
+  },
+  "devDependencies": {
+    "@types/browser-sync": "^2.26.3",
+    "@types/config": "^0.0.40",
+    "@types/sass": "^1.43.0",
+    "@types/stylelint": "^13.13.3",
+    "npm-check-updates": "^12.0.2",
+    "npm-run-all": "^4.1.5",
+    "type-fest": "^2.5.4",
+    "typescript": "^4.5.2"
+  }
+}
